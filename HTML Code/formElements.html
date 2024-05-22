@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Information About your self</legend>
+            <label for="degree">Enter your degree</label>
+            <select name="Degree" id="degree">
+                <option value="Btech">Btech</option>
+                <option value="Mtech">Mtech</option>
+                <option value="MCA" selected>MCA</option>
+                <!-- Selected Attribute is use to select automatically  -->
+                <option value="MSC">MSC</option>
+                <option value="BSC">BSC</option>
+                <option value="other_degree">Other Degree</option>
+            </select>
+            <br>
+            <label for="Introduction">Your Introduction</label>
+            <textarea name="message" id="Introduction" rows="10" cols="30"></textarea>
+        </fieldset>
+
+
+        <br />
+        <input type="button" value="Click Me">
+        <button type="reset" value="submit">Submit Form</button>
+        <button type="button" value="select">button</button>
+        <input type="submit" value="Submit">
+
+
+        <label for="pic">Upload image</label>
+        <input type="file" name="Picture" id="pic">
+
+    </form>
+</body>
+
+</html>
